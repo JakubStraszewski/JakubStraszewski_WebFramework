@@ -1,0 +1,16 @@
+extends layout
+
+block content
+	h1.textFill Music Concert Database - Login
+	.textFill
+		form(action="http://localhost:3000/angular/password" method="POST")
+			br
+			label(for="username") Name
+			input(type="text" name="username" id="username")
+			br
+			br
+			label(for="password") Password
+			input(type="password" name="password" id="password")
+			br
+			br
+			input(type="submit" value="Login")

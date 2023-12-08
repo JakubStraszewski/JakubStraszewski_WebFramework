@@ -1,0 +1,29 @@
+body {
+	background-color: #7f3f00;
+	background-image: url("./opera-594592_1280.jpg");
+	background-repeat: repeat-x;
+}
+
+.textFill{
+	background-color: rgba(255, 255, 255, 0.75);
+	text-align: center;
+	padding: 1.0em;
+}
+
+.errorMessage {
+	color: white;
+	background-color: rgba(255, 0.0, 0.0, 0.75);
+	/*font-family: "Segoe Script";*/
+}
+
+.concert {
+	margin-left: 15.0em;
+	margin-right: 15.0em;
+	color: #3f477f;
+	background-color: rgba(127, 143, 255, 0.9);
+	text-align: center;
+	padding: 1.0em;	
+	border: solid;
+	border-width: 0.5em;
+	border-color: #3f477f;
+}

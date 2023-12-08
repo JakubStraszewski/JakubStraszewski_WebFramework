@@ -1,0 +1,8 @@
+extends layout
+
+block content
+	h1.textFill Music Concert Database - Welcome!
+	h2.textFill Choose from the following concerts:
+	.concert
+		each line in concerts
+			h2 #{line}

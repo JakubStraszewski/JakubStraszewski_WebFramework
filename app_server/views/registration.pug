@@ -1,0 +1,16 @@
+extends layout
+
+block content
+	h1.textFill Music Concert Database - Register
+	.textFill
+		form(action="http://localhost:3000/register/user" method="POST")
+			br
+			label(for="sn") Name
+			input(type="text" name="signup_name" id="sn")
+			br 
+			br
+			label(for="pswrd") Password
+			input(type="password" name="signup_password" id="pswrd")
+			br
+			br
+			input(type="submit" value="Register")
